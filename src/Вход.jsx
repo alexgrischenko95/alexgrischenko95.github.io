@@ -15,7 +15,7 @@ function Вход() {
         <div className="Voiti">   
             <input className="Voiti__input" placeholder="Логин" value={login} onChange={e=>setLogin(e.target.value)}/>
             <input className="Voiti__input" placeholder="Пароль" value={parol} onChange={e=>setParol(e.target.value)} />
-            <div>
+            <div className="Voiti__Button">
               <button className="Voiti__button" onClick={vcvcvc}>Войти</button>
             </div>  
         </div>
